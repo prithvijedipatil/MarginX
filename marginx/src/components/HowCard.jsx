@@ -27,7 +27,7 @@ const HowCard = () => {
       >
         <div className="cardIcon">
           <img
-            src="/assets/increase.png"
+            src="/assets/check-mark.png"
             alt="image"
             style={{
               height: "70px",
@@ -60,7 +60,7 @@ const HowCard = () => {
       >
         <div className="cardIcon">
           <img
-            src="/assets/increase.png"
+            src="/assets/user-interface.png"
             alt="image"
             style={{
               height: "70px",
@@ -74,7 +74,7 @@ const HowCard = () => {
         </div>
         <div className="cardText" style={{ height: "auto", width: "200px" }}>
           <p style={{ fontSize: "16px", fontWeight: "bold" }}>
-            1.Select Category
+            2. Fill in details
           </p>
         </div>
       </div>
@@ -93,7 +93,7 @@ const HowCard = () => {
       >
         <div className="cardIcon">
           <img
-            src="/assets/increase.png"
+            src="/assets/Rupee.png"
             alt="image"
             style={{
               height: "70px",
@@ -107,7 +107,7 @@ const HowCard = () => {
         </div>
         <div className="cardText" style={{ height: "auto", width: "200px" }}>
           <p style={{ fontSize: "16px", fontWeight: "bold" }}>
-            1.Select Category
+            3.Get the Right Price
           </p>
         </div>
       </div>

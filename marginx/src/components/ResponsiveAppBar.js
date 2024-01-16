@@ -13,7 +13,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 
-const pages = ["Home", "About Us"];
+const pages = ["Home", "About Us", "contact Us"];
 const settings = ["Home", "About Us"];
 
 function ResponsiveAppBar() {
@@ -39,6 +39,7 @@ function ResponsiveAppBar() {
     <AppBar
       sx={{ backgroundColor: "white", color: "#086AA7" }}
       position="static"
+      id="home"
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
@@ -141,17 +142,30 @@ function ResponsiveAppBar() {
               flexGrow: 1,
               display: { xs: "none", md: "flex" },
               justifyContent: "end",
+              gap: "20px",
             }}
           >
-            {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "#086AA7", display: "block" }}
-              >
-                {page}
-              </Button>
-            ))}
+            <Button
+              href="#home"
+              onClick={handleCloseNavMenu}
+              sx={{ my: 2, color: "#086AA7", display: "block" }}
+            >
+              <span style={{ fontWeight: "bold" }}>Home</span>
+            </Button>
+            <Button
+              href="#about"
+              onClick={handleCloseNavMenu}
+              sx={{ my: 2, color: "#086AA7", display: "block" }}
+            >
+              <span style={{ fontWeight: "bold" }}>About</span>
+            </Button>
+            <Button
+              href="#contact"
+              onClick={handleCloseNavMenu}
+              sx={{ my: 2, color: "#086AA7", display: "block" }}
+            >
+              <span style={{ fontWeight: "bold" }}>Contact</span>
+            </Button>
           </Box>
         </Toolbar>
       </Container>

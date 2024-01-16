@@ -9,7 +9,7 @@ const TestimonialCard = () => {
         alignItems: "center",
         justifyContent: "center",
         gap: "30px",
-        marginTop: "80px",
+        marginTop: "50px",
       }}
     >
       <div
@@ -41,7 +41,7 @@ const TestimonialCard = () => {
           >
             <div className="cardIcon">
               <img
-                src="/assets/increase.png"
+                src="/assets/mitchell-luo-ymo_yC_N_2o-unsplash.jpg"
                 alt="image"
                 style={{
                   height: "70px",
@@ -49,7 +49,8 @@ const TestimonialCard = () => {
                   borderRadius: "50px",
                   boxShadow: "0px 1px 6px #00000029 ",
                   backgroundColor: "white",
-                  paddingLeft: "5px",
+                  paddingLeft: "0",
+                  objectFit: "cover",
                 }}
               />
             </div>
@@ -70,9 +71,9 @@ const TestimonialCard = () => {
                   marginBottom: "-1px",
                 }}
               >
-                Praful Raj
+                Ankit Bhala
               </p>
-              <p>Agra, UP</p>
+              <p>Delhi</p>
             </div>
           </div>
         </div>
@@ -85,9 +86,10 @@ const TestimonialCard = () => {
           }}
         >
           <p>
-            "The PriceX makes it very easy to find out price for all the
-            different vehicles and categories. I would recommend this to all who
-            are into pre-owned vehicle business."
+            "As an architect, this construction price estimation website has
+            become my go-to tool. It saved me time on budget calculations and
+            ensured transparency with clients. I highly recommend it for precise
+            and efficient cost estimates."
           </p>
         </div>
       </div>
@@ -120,7 +122,7 @@ const TestimonialCard = () => {
           >
             <div className="cardIcon">
               <img
-                src="/assets/increase.png"
+                src="/assets/ali-morshedlou-WMD64tMfc4k-unsplash.jpg"
                 alt="image"
                 style={{
                   height: "70px",
@@ -128,7 +130,8 @@ const TestimonialCard = () => {
                   borderRadius: "50px",
                   boxShadow: "0px 1px 6px #00000029 ",
                   backgroundColor: "white",
-                  paddingLeft: "5px",
+                  paddingLeft: "0",
+                  objectFit: "cover",
                 }}
               />
             </div>
@@ -149,9 +152,9 @@ const TestimonialCard = () => {
                   marginBottom: "-1px",
                 }}
               >
-                Praful Raj
+                Madhu Siram
               </p>
-              <p>Agra, UP</p>
+              <p>Mumbai, MH</p>
             </div>
           </div>
         </div>
@@ -164,9 +167,10 @@ const TestimonialCard = () => {
           }}
         >
           <p>
-            "The PriceX makes it very easy to find out price for all the
-            different vehicles and categories. I would recommend this to all who
-            are into pre-owned vehicle business."
+            "MarginX revolutionized my cost estimation process. Its
+            user-friendly interface and comprehensive data help me submit
+            competitive bids, securing more contracts. A game-changer for
+            construction professionals – highly recommended."
           </p>
         </div>
       </div>
@@ -199,7 +203,7 @@ const TestimonialCard = () => {
           >
             <div className="cardIcon">
               <img
-                src="/assets/increase.png"
+                src="/assets/kunal-goswami-5DYuCuFgJBs-unsplash.jpg"
                 alt="image"
                 style={{
                   height: "70px",
@@ -207,7 +211,8 @@ const TestimonialCard = () => {
                   borderRadius: "50px",
                   boxShadow: "0px 1px 6px #00000029 ",
                   backgroundColor: "white",
-                  paddingLeft: "5px",
+                  paddingLeft: "0",
+                  objectFit: "cover",
                 }}
               />
             </div>
@@ -228,9 +233,9 @@ const TestimonialCard = () => {
                   marginBottom: "-1px",
                 }}
               >
-                Praful Raj
+                Ritesh Shankar
               </p>
-              <p>Agra, UP</p>
+              <p>Bangalore, KA</p>
             </div>
           </div>
         </div>
@@ -243,9 +248,10 @@ const TestimonialCard = () => {
           }}
         >
           <p>
-            "The PriceX makes it very easy to find out price for all the
-            different vehicles and categories. I would recommend this to all who
-            are into pre-owned vehicle business."
+            "During my home renovation, this website provided clear and accurate
+            cost estimates. It empowered me to negotiate better deals and avoid
+            surprises. A fantastic tool for homeowners – I'd recommend it for
+            informed construction decisions."
           </p>
         </div>
       </div>

@@ -13,6 +13,9 @@ import {
   Grid,
   FormHelperText,
   CircularProgress,
+  Modal,
+  Box,
+  Typography,
 } from "@mui/material";
 import Category from "./Category";
 import data from "../data.json";
@@ -27,6 +30,26 @@ const MarginForm = () => {
   const [cat4, setCat4] = useState("");
   const [result, setResult] = useState("");
   const [loading, setLoading] = useState(false);
+  const [open, setOpen] = React.useState(false);
+  const style = {
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    transitionDelay: "2s",
+    width: 400,
+    bgcolor: "background.paper",
+
+    boxShadow: 24,
+    p: 4,
+  };
+  let x = 0;
+
+  const modalOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => setOpen(false);
 
   const handleCatSelect = (id) => {
     setCat(id);
@@ -57,13 +80,13 @@ const MarginForm = () => {
   };
 
   const getResult = () => {
-    let x = data[cat][cat2][cat3][cat4];
+    x = data[cat][cat2][cat3][cat4];
     setLoading(true);
     setResult(x);
 
     setTimeout(() => {
       setLoading(false);
-      alert(x);
+      modalOpen();
     }, 1000);
   };
 
@@ -174,6 +197,10 @@ const MarginForm = () => {
             variant="contained"
             disabled={!cat4 || loading}
             onClick={() => getResult()}
+            sx={{
+              backgroundColor: "#086aa7",
+              color: "#fffff",
+            }}
           >
             Estimate Now{" "}
             {loading ? (
@@ -191,6 +218,42 @@ const MarginForm = () => {
           </Button>
         </div>
       </Collapse>
+
+      <Modal
+        open={open}
+        className="Modal"
+        onClose={handleClose}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+        disableRestoreFocus
+      >
+        <Box className="BoxModal" sx={style}>
+          <div className="modalContainer">
+            <Typography
+              className="searchResultModal"
+              id="modal-modal-title"
+              variant="h6"
+              component="h2"
+            >
+              {/* price display here */}
+              <h4 style={{ marginTop: "-10px" }}>
+                This should cost you in the range
+              </h4>
+              <span
+                style={{
+                  color: "#086aa7",
+                  fontWeight: "bold",
+                  textAlign: "center",
+                  marginRight: "50px",
+                  display: "block",
+                }}
+              >
+                ₹ {result}
+              </span>
+            </Typography>
+          </div>
+        </Box>
+      </Modal>
     </>
   );
 };

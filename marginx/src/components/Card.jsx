@@ -10,6 +10,7 @@ const Card = () => {
         flexDirection: "row",
         gap: "30px",
         justifyContent: "center",
+        marginTop: "50px",
       }}
     >
       <div
@@ -27,15 +28,15 @@ const Card = () => {
       >
         <div className="cardIcon">
           <img
-            src="/assets/increase.png"
+            src="/assets/workflow.png"
             alt="image"
             style={{ height: "50px", width: "50px" }}
           />
         </div>
         <div className="cardText" style={{ height: "auto", width: "200px" }}>
           <p>
-            Best price for your vehicle in 3 quick and easy steps. Select your
-            vehicle, add your details and get the price!
+            Get the best market rate estimation in few steps. Select product or
+            upload quotation.
           </p>
         </div>
       </div>
@@ -61,8 +62,8 @@ const Card = () => {
         </div>
         <div className="cardText" style={{ height: "auto", width: "200px" }}>
           <p>
-            Best price for your vehicle in 3 quick and easy steps. Select your
-            vehicle, add your details and get the price!
+            Scientific & Insightful approach towards price discovery. Hard work
+            and intelligence put together!
           </p>
         </div>
       </div>
@@ -81,15 +82,15 @@ const Card = () => {
       >
         <div className="cardIcon">
           <img
-            src="/assets/increase.png"
+            src="/assets/ai.png"
             alt="image"
             style={{ height: "50px", width: "50px" }}
           />
         </div>
         <div className="cardText" style={{ height: "auto", width: "200px" }}>
           <p>
-            Best price for your vehicle in 3 quick and easy steps. Select your
-            vehicle, add your details and get the price!
+            Data driven results by providing exclusive access to all prodcut
+            prices over the past decade!
           </p>
         </div>
       </div>

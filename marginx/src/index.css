@@ -61,6 +61,7 @@ code {
   background-color: white;
   box-shadow: 10px 10px 5px 0px rgba(43, 42, 42, 0.25);
   padding: 5px;
+  border: 1px solid blue;
 }
 
 .searchBarModal {
@@ -113,11 +114,11 @@ code {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 600px;
+  width: 500px;
   height: 60px;
   background-color: #086aa7;
   padding: 20px;
-  margin-top: 50px;
+  margin-top: 70px;
   margin-bottom: 80px;
   border-radius: 20px;
   box-shadow: 20px 31px 17px -12px rgba(0, 0, 0, 0.25);

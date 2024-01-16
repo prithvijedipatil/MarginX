@@ -6,6 +6,7 @@ const WhySection = () => {
     <>
       <div
         className="sectionContainer"
+        id="about"
         style={{
           marginTop: "80px",
           marginBottom: "20px",
@@ -17,8 +18,10 @@ const WhySection = () => {
             marginTop: "20px",
           }}
         >
-          <h2>Why MarginX</h2>
-          <h3>Used by leading Brands, Construction Companies and Architects</h3>
+          <h2 style={{ color: "#086aa7" }}>Why MarginX</h2>
+          <h3 style={{ color: "grey" }}>
+            Used by leading Brands, Construction Companies and Architects
+          </h3>
         </div>
         <Card />
       </div>

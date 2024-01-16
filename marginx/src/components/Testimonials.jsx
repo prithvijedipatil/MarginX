@@ -19,8 +19,8 @@ const Testimonials = () => {
             marginTop: "20px",
           }}
         >
-          <h2>Testimonials</h2>
-          <h3>What our users have to say</h3>
+          <h2 style={{ color: "#086aa7" }}>Testimonials</h2>
+          <h3 style={{ color: "grey" }}>What our users have to say</h3>
         </div>
         <TestimonialCard />
       </div>

@@ -21,8 +21,8 @@ const HowSection = () => {
             marginTop: "20px",
           }}
         >
-          <h2>Why MarginX</h2>
-          <h3>Used by leading Brands, Construction Companies and Architects</h3>
+          <h2>How MarginX Works</h2>
+          <h3>Right price estimation for all the products in simple steps</h3>
         </div>
         <HowCard />
       </div>

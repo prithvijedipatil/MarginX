@@ -66,7 +66,7 @@ export const Category = ({ handleChange }) => {
         }}
       >
         <h1 style={{ color: "#fefefe", marginTop: "60px", fontSize: "40px" }}>
-          Get the best industry price now
+          Get the right price estimation
         </h1>
         <Search />
         <div className="fileBanner">
@@ -129,6 +129,7 @@ export const Category = ({ handleChange }) => {
 
               padding: "40px",
               flexWrap: "wrap",
+              marginTop: "-30px",
             }}
           >
             {categoryList.map((item) => (

@@ -8,7 +8,7 @@ const Contact = () => {
     }, 5000);
   }, []);
   return (
-    <div>
+    <div id="contact">
       <iframe
         id="JotFormIFrame-240154359064050"
         title="Contact Us"
