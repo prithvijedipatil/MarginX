@@ -1,0 +1,105 @@
+{
+  "Bathroom": {
+    "fixtures": {
+      "Jaquar": {
+        "Washbasin": "7423 - 8223",
+        "faucet": "6216 - 7432"
+      },
+
+      "Kohler": {
+        "Washbasin": "9337 - 11289",
+        "faucet": "8138 - 9432"
+      }
+    },
+
+    "tiles": {
+      "Kajaria": {
+        "Cool Cement 2x2": "800 - 880",
+        "ONYX 1600x800": "980 - 1020"
+      },
+
+      "HMG": {
+        "Cool Cement 2x2": "680 - 730",
+        "ONYX 1600x800": "780 - 820"
+      }
+    }
+  },
+
+  "Flooring": {
+    "wooden": {
+      "WhiteOak": {
+        "Symphony": "350-380 /sqft",
+        "Meadows": "480-560 /sqft"
+      },
+
+      "Laminate": {
+        "Symphony": "60-80 /sqft",
+        "Meadows": "68-87 /sqft"
+      }
+    },
+
+    "tiles": {
+      "Kajaria": {
+        "Cool Cement 2x2": "800 - 880",
+        "ONYX 1600x800": "980 - 1020"
+      },
+
+      "HMG": {
+        "Cool Cement 2x2": "680 - 730",
+        "ONYX 1600x800": "780 - 820"
+      }
+    }
+  },
+
+  "Raw Materials": {
+    "Cement": {
+      "L&T Cement": {
+        "Strong protection": "320",
+        "weather Plus": "395"
+      },
+
+      "Ambuja Cement": {
+        "Grey Gold": "180",
+        "local cement": "160"
+      }
+    },
+
+    "Sand": {
+      "Jamuna": {
+        "Fine Grain": "500-550",
+        "Grade 2": "350-400"
+      },
+
+      "Marula": {
+        "Mitra": "380-421",
+        "Fine": "298-320"
+      }
+    }
+  },
+
+  "Electrical": {
+    "LEDs": {
+      "Surya": {
+        "Bulb": "280-310",
+        "Cylinder": "680-880"
+      },
+
+      "Philips": {
+        "Bulb": "350-500",
+        "Cylinder": "880-980"
+      }
+    },
+
+    "Switches": {
+      "Schnider": {
+        "Switch Plates": "180-220",
+        "Switches": "980-1000"
+      },
+
+      "Havells": {
+        "Switch Plates": "150-200",
+        "Switches": "600-700"
+      }
+    }
+  }
+}
