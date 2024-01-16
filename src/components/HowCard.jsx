@@ -94,7 +94,7 @@ const HowCard = () => {
       >
         <div className="cardIcon">
           <img
-            src="/assets/Rupee.png"
+            src="/assets/rupee.png"
             alt="image"
             style={{
               height: "70px",
