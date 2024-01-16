@@ -69,7 +69,7 @@ function ResponsiveAppBar() {
                 height: "50px",
                 marginLeft: "-30px",
               }}
-              src="/assets/logo.png"
+              src="/assets/x-high-resolution-logo-transparent.png"
               alt="logo"
             />
           </Typography>
@@ -133,7 +133,7 @@ function ResponsiveAppBar() {
                 width: "auto",
                 height: "30px",
               }}
-              src="/assets/logo.png"
+              src="/assets/x-high-resolution-logo-transparent.png"
               alt="logo"
             />
           </Typography>

@@ -9,6 +9,7 @@ const Card = () => {
         alignItems: "center",
         flexDirection: "row",
         gap: "30px",
+        flexWrap: "wrap",
         justifyContent: "center",
         marginTop: "50px",
       }}

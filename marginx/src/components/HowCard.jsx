@@ -9,6 +9,7 @@ const HowCard = () => {
         alignItems: "center",
         flexDirection: "row",
         gap: "30px",
+        flexWrap: "wrap",
         justifyContent: "center",
       }}
     >

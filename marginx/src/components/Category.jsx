@@ -111,7 +111,7 @@ export const Category = ({ handleChange }) => {
         <SearchModal />
         <div>
           <h2
-            style={{ color: "#fefefe", marginTop: "45px", textAlign: "center" }}
+            style={{ color: "#fefefe", marginTop: "30px", textAlign: "center" }}
           >
             <span className="or"> Select based on categories</span>
           </h2>
@@ -129,7 +129,7 @@ export const Category = ({ handleChange }) => {
 
               padding: "40px",
               flexWrap: "wrap",
-              marginTop: "-30px",
+              marginTop: "18px",
             }}
           >
             {categoryList.map((item) => (

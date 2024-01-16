@@ -10,6 +10,7 @@ const TestimonialCard = () => {
         justifyContent: "center",
         gap: "30px",
         marginTop: "50px",
+        flexWrap: "wrap",
       }}
     >
       <div
@@ -29,7 +30,7 @@ const TestimonialCard = () => {
             alignItems: "start",
 
             justifyContent: "start",
-
+            flexWrap: "wrap",
             height: "auto",
             width: "auto",
             paddingLeft: "30px",
