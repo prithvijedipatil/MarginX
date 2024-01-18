@@ -18,13 +18,6 @@ code {
   opacity: 1.8;
 }
 
-@media screen and (max-width: 600px) {
-  .categoryDiv {
-    box-shadow: none;
-    margin-top: 50px;
-  }
-}
-
 .categoryDiv {
   background-color: white;
   border-top-right-radius: 20px;
@@ -151,4 +144,41 @@ code {
 
 .iframe > .formFooter {
   display: none !important;
+}
+
+@media screen and (max-width: 600px) {
+  .categoryDiv {
+    box-shadow: none;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .fileBanner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 380px;
+    height: 60px;
+    background-color: #086aa7;
+    padding: 10px;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+    box-shadow: 20px 31px 17px -12px rgba(0, 0, 0, 0.25);
+  }
+
+  .fileBanner p {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .fileButton {
+    background-color: white !important;
+    color: #086aa7;
+    width: 128px;
+    height: 48px;
+    font-size: 12px !important;
+  }
 }
