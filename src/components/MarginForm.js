@@ -58,6 +58,10 @@ const MarginForm = () => {
     setCat4(null);
     console.log("id", id);
     setcat2options(Object.keys(data[id]));
+    const element = document.getElementById("categoryDivId");
+    element.scrollIntoView({
+      behavior: "smooth",
+    });
   };
 
   const handleCat2Change = (e) => {
@@ -93,7 +97,7 @@ const MarginForm = () => {
   return (
     <>
       <Category handleChange={handleCatSelect} />
-      <Collapse in={!!cat}>
+      <Collapse id="collapse" in={!!cat}>
         <div
           className="collapseDiv"
           style={{

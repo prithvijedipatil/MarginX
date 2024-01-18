@@ -120,6 +120,7 @@ export const Category = ({ handleChange }) => {
           </h2>
           <div
             className="categoryDiv"
+            id="categoryDivId"
             style={{
               width: "auto",
               height: "auto",
