@@ -153,7 +153,7 @@ const TestimonialCard = () => {
                   marginBottom: "-1px",
                 }}
               >
-                Madhu Siram
+                Ritesh Shankar
               </p>
               <p>Mumbai, MH</p>
             </div>
@@ -212,7 +212,7 @@ const TestimonialCard = () => {
                   borderRadius: "50px",
                   boxShadow: "0px 1px 6px #00000029 ",
                   backgroundColor: "white",
-                  paddingLeft: "0",
+                  paddingLeft: "0px",
                   objectFit: "cover",
                 }}
               />
@@ -234,7 +234,7 @@ const TestimonialCard = () => {
                   marginBottom: "-1px",
                 }}
               >
-                Ritesh Shankar
+                Madhu Siram
               </p>
               <p>Bangalore, KA</p>
             </div>
