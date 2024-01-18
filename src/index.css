@@ -181,4 +181,26 @@ code {
     height: 48px;
     font-size: 12px !important;
   }
+
+  .BoxModal {
+    border-radius: 15px;
+    max-height: 400px;
+    min-height: 50px;
+    max-width: 80%;
+  }
+
+  .searchBarModal {
+    margin: 20px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+  }
+  .searchResultModal {
+    margin: 10px;
+    border-bottom: 0.01px solid grey;
+    box-shadow: 25px 10px 25px -69px rgba(43, 42, 42, 0.16);
+    padding-bottom: 10px;
+    font-size: 16px !important;
+  }
 }
