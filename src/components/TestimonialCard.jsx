@@ -30,7 +30,7 @@ const TestimonialCard = () => {
             alignItems: "start",
 
             justifyContent: "start",
-            flexWrap: "wrap",
+
             height: "auto",
             width: "auto",
             paddingLeft: "30px",
@@ -38,7 +38,7 @@ const TestimonialCard = () => {
         >
           <div
             className="testimonialPictureAndName"
-            style={{ display: "flex", gap: "30px" }}
+            style={{ display: "flex", gap: "30px", justifyContent: "start" }}
           >
             <div className="cardIcon">
               <img
@@ -119,7 +119,7 @@ const TestimonialCard = () => {
         >
           <div
             className="testimonialPictureAndName"
-            style={{ display: "flex", gap: "30px" }}
+            style={{ display: "flex", gap: "30px", justifyContent: "start" }}
           >
             <div className="cardIcon">
               <img
@@ -200,7 +200,7 @@ const TestimonialCard = () => {
         >
           <div
             className="testimonialPictureAndName"
-            style={{ display: "flex", gap: "30px" }}
+            style={{ display: "flex", gap: "30px", justifyContent: "center" }}
           >
             <div className="cardIcon">
               <img
