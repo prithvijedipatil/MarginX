@@ -65,7 +65,10 @@ export const Category = ({ handleChange }) => {
           alignItems: "center",
         }}
       >
-        <h1 style={{ color: "#fefefe", marginTop: "60px", fontSize: "40px" }}>
+        <h1
+          className="heading"
+          style={{ color: "#fefefe", marginTop: "60px", fontSize: "40px" }}
+        >
           Get the right price estimation
         </h1>
         <Search />

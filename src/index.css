@@ -154,11 +154,16 @@ code {
 }
 
 @media screen and (max-width: 500px) {
+  .categoryDiv {
+    box-shadow: none;
+    margin-top: 50px;
+    width: 98%;
+  }
   .fileBanner {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 380px;
+    width: 90%;
     height: 60px;
     background-color: #086aa7;
     padding: 10px;
@@ -182,6 +187,16 @@ code {
     font-size: 12px !important;
   }
 
+  .searchBar {
+    margin: 20px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 5px 0px rgba(43, 42, 42, 0.25);
+    padding: 5px;
+    border: 1px solid blue;
+  }
+
   .BoxModal {
     border-radius: 15px;
     max-height: 400px;
@@ -202,5 +217,21 @@ code {
     box-shadow: 25px 10px 25px -69px rgba(43, 42, 42, 0.16);
     padding-bottom: 10px;
     font-size: 16px !important;
+  }
+
+  .cardContainer {
+    width: 90% !important;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sectionContainer {
+    width: 90% !important;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .heading {
+    margin-left: 4.5%;
   }
 }
